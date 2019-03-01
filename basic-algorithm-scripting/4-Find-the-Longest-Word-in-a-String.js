@@ -1,14 +1,20 @@
-/*  
-	Basic Algorithm Scripting: Find the Longest Word in a String
-*/
+/*********************************************************** 
+Basic Algorithm Scripting: Find the Longest Word in a String
+***********************************************************/
 
-/* 
-	Return the length of the longest word in the provided sentence.
+/*********************************************************** 
+Problem
+************************************************************
 
-	Your response should be a number.
-*/
+Return the length of the longest word in the provided sentence.
 
-// My Solution
+Your response should be a number.
+
+
+/*********************************************************** 
+My Solution
+***********************************************************/
+
 function findLongestWordLength(str) {
   // Convert to array
   let arr = str.split(' ');

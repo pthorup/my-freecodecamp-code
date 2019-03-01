@@ -1,21 +1,25 @@
 /*********************************************************** 
-Basic Algorithm Scripting: Convert Celsius to Fahrenheit 
+Basic Algorithm Scripting: Boo who
 ***********************************************************/
+
 
 /*********************************************************** 
 Problem
 ************************************************************
 
-The algorithm to convert from Celsius to Fahrenheit is the temperature in Celsius times 9/5, plus 32.
+Check if a value is classified as a boolean primitive. Return true or false.
+
+Boolean primitives are true and false.
 
 
 /*********************************************************** 
 My Solution
 ***********************************************************/
 
-function convertToF(celsius) {
-  let fahrenheit = celsius * 9/5 + 32;
-  return fahrenheit;
+function booWho(bool) {
+  return (bool === true || bool === false) ? true : false;
 }
 
-convertToF(30);
+booWho(null);
+
+// In retrospect, I should have used 'typeof'. Much simplier.

@@ -1,16 +1,23 @@
-/*  
-	Basic Algorithm Scripting: Reverse a String
-*/
+/*********************************************************** 
+Basic Algorithm Scripting: Reverse a String
+***********************************************************/  
+	
 
-/* 
-	Reverse the provided string.
+/*********************************************************** 
+Problem
+************************************************************
 
-	You may need to turn the string into an array before you can reverse it.
+Reverse the provided string.
 
-	Your result must be a string.
-*/
+You may need to turn the string into an array before you can reverse it.
 
-// My Solution
+Your result must be a string.
+
+
+/*********************************************************** 
+My Solution
+***********************************************************/
+
 function reverseString(str) {
     // Split the string into an array, reverse the array order, then join to string again.
     return str.split('').reverse().join('');
